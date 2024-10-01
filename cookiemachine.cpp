@@ -11,9 +11,9 @@ int main()
 
     cout << "Hello! Please input how many cookies you would like to make:";
     cin >> cookies;
-    cout << fixed << (cookies * sugar)/48 << " cups of sugar\n";
-    cout << fixed << (cookies * butter)/48 << " cup of butter\n";
-    cout << precision(5)  (cookies * flour)/48 << " cups of flour\n";
+    cout << setprecision(2) << fixed << (cookies * sugar)/48 << " cups of sugar\n";
+    cout << setprecision(2) << fixed << (cookies * butter)/48 << " cup of butter\n";
+    cout << setprecision(2) << fixed <<  (cookies * flour)/48 << " cups of flour\n";
 
     cin.get();
 
