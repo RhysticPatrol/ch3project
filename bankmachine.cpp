@@ -8,10 +8,9 @@ using namespace std;
 int main()
 {
 
-float Principle;
-float Rate;
-float t;
-long double Amount = Principle * (pow(( 1 + (Rate/t)),t));
+double Principle;
+double Rate;
+double t;
 
 cout << "This program is to help you calculate your balance in your savings account.";
 cout << "\nFirst, we will need you to enter your interest rate:";
@@ -22,8 +21,7 @@ cout << "\nAlright, last thing! We need the number of times interest is compound
 cout << "\n(example if it is done quartly enter in 4)";
 cin >> t;
 cout << "Now we will find your new balance!:\n";
-cout << Amount;
-
+cout << Principle * (pow(( 1 + (Rate/t)),t));
 
 return 0;
 }
