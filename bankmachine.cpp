@@ -21,7 +21,7 @@ cin >> Principle;
 cout << "\nAlright, last thing! We need the number of times interest is compounded:";
 cout << "\n(example if it is done quartly enter in 4)";
 cin >> t;
-cout << "\nInterest Rate:" << Rate;
+cout << "\nInterest Rate:" << Rate *100 <<"%";
 cout << "\nTimes Compounded:" << t;
 cout << "\nPrinciple:" << Principle;
  
